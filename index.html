@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Révisions Terminale MCV</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<style>
+:root{--bg:#EEF2F0;--surface:#FFFFFF;--ink:#132019;--muted:#56665E;--line:#C9D3CE;--accent:#0E6B58;--tag:#FFCC2E;--tag-ink:#1C1A08;color-scheme:light}
+@media (prefers-color-scheme: dark){:root{--bg:#0E1412;--surface:#17201C;--ink:#E6EEEA;--muted:#97A9A0;--line:#2F3D37;--accent:#4CC1A6;--tag:#FFD54A;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Atkinson Hyperlegible","Segoe UI",system-ui,sans-serif;font-size:17px;line-height:1.5}
+.wrap{max-width:820px;margin:0 auto;padding:40px max(16px, env(safe-area-inset-right, 0px)) 64px max(16px, env(safe-area-inset-left, 0px))}
+.eyebrow{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:"Bricolage Grotesque","Arial Narrow",sans-serif;font-size:clamp(34px,7vw,56px);font-weight:800;line-height:1.05;margin:10px 0 14px;text-wrap:balance}
+h1 span{background:var(--tag);color:var(--tag-ink);padding:0 .18em;border-radius:4px}
+p{color:var(--muted);max-width:60ch;margin:0 0 28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+a.card{display:grid;gap:10px;text-decoration:none;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:20px;transition:transform .12s,border-color .12s}
+a.card:hover,a.card:focus-visible{transform:translateY(-2px);border-color:var(--accent);outline:none}
+a.card h2{font-family:"Bricolage Grotesque",sans-serif;font-size:24px;margin:0}
+a.card ul{margin:0;padding-left:18px;color:var(--muted);font-size:15px}
+.go{justify-self:start;font-weight:700;background:var(--accent);color:var(--bg);padding:8px 14px;border-radius:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="eyebrow">Bac Pro MCV · Terminale · Révisions de vacances</span>
+  <h1>Réviser tout le programme, <span>à ton rythme</span></h1>
+  <p>Choisis une partie. Dans chaque chapitre, lis d'abord « L'essentiel », puis fais les exercices. Ta meilleure note sur 20 est gardée sur ton téléphone ou ton ordinateur.</p>
+  <div class="grid">
+    <a class="card" href="partie1.html">
+      <span class="eyebrow">Partie 1 · 17 chapitres</span>
+      <h2>Vendre et gérer l'offre</h2>
+      <ul><li>Veille, organigramme, zone de chalandise</li><li>Canaux, omnicanalité, UC phygitale</li><li>Étapes de la vente, SONCAS, CAP, objections</li><li>Réception, stocks, démarque, merchandising</li></ul>
+      <span class="go">Commencer →</span>
+    </a>
+    <a class="card" href="partie2.html">
+      <span class="eyebrow">Partie 2 · 13 chapitres</span>
+      <h2>Le client et la loi</h2>
+      <ul><li>Prise de contact, types de questions</li><li>Fidélisation, satisfaction, CRM et SIC</li><li>BtoB / BtoC, réseaux sociaux</li><li>RGPD, consommateur, CGV, hygiène, DLC / DDM</li></ul>
+      <span class="go">Commencer →</span>
+    </a>
+  </div>
+</div>
+</body>
+</html>
